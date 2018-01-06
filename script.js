@@ -62,10 +62,26 @@ var favorite_fruit = 'mango';
 // var fruit = 'apple';
 // console.log(fruit.toUpperCase());
 
-function add (n1, n2) {
-  return n1 + n2;
+// function add (n1, n2) {
+//   return n1 + n2;
+// }
+// console.log(add(2, 4));
+function sum (numbers) {
+  var totalnumber = 0;
+  for (var i =0; i < numbers.length; i++) {
+    totalnumber = totalnumber + numbers[i]
+  }
+  return totalnumber;
 }
-console.log(add(2, 4));
+
+
+var numbers = [3, 4, 8, 99, 6];
+var numbers2 = [4, 5, 88]
+
+console.log(sum(numbers2))
+
+
+
 
 
 
